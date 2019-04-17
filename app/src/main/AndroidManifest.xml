@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ashay.swayambhu_1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Hackathon_CSE" />
+        <activity android:name=".EnggInterns_open" />
+        <activity android:name=".BehindTheLens_open" />
+        <activity android:name=".TechnoConfetti_open" />
+        <activity android:name=".LeaderInYou_open" />
+        <activity android:name=".Innovate_open" />
+        <activity android:name=".Speakup_open" />
+        <activity android:name=".Ideathon_open" />
+        <activity android:name=".Proyekto_open" />
+        <activity android:name=".BussinessIdea_open" />
+        <activity android:name=".Bestfromwaste_open" />
+        <activity android:name=".MrMsTechy_open" />
+        <activity android:name=".TechOne_open" />
+        <activity android:name=".SurvivalBattle_open" />
+        <activity android:name=".JNEC_KBC_open" />
+        <activity android:name=".FunInSurvey_civil" />
+        <activity android:name=".Aakar_civil" />
+        <activity android:name=".Cartofest_civil" />
+        <activity android:name=".Aakruti_civil" />
+        <activity android:name=".Khoj2k19_EEP" />
+        <activity android:name=".CrossTheStairs_EEP" />
+        <activity android:name=".Techno_Ace_EEP" />
+        <activity android:name=".ElectromaniaWork_ECT" />
+        <activity android:name=".Sports_Data_ECT" />
+        <activity android:name=".Micron_ECT" />
+        <activity android:name=".Code_Wizard_MCA" />
+        <activity android:name=".Codingo2_CSE" />
+        <activity android:name=".FastFurious_IT" />
+        <activity android:name=".chem_carnival" />
+        <activity android:name=".ModelMaking_chem" />
+        <activity android:name=".adalat_mech" />
+        <activity android:name=".CircuitDebugiging_ECT" />
+        <activity
+            android:name=".CSE_EVENTS_MAIN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".C_Ladder_CSE"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Floatingmenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Homescreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Intro"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Signup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Bottom_NavBar"
+            android:label="@string/title_activity_bottom__nav_bar"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MECH_EVENTS_MAIN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IT_EVENTS_MAIN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ECT_EVENTS_MAIN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Web_War_IT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CIVIL_EVENTS_MAIN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CHEMICAL_EVENTS_MAIN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Lathe_War_Mech"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Mat_Mania"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Auto_CAD_Desgin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Water_rocket"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".General_Event_Main"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fun_Event_Main"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Innovators_Competition"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".forgotpassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FAQ_ACTIVITY"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Our_Team" />
+        <activity android:name=".Developers_activity" />
+        <activity android:name=".About_event" />
+        <activity android:name=".MovieMaking_open" />
+        <activity android:name=".GreenCanvas_civil"></activity>
+    </application>
+
+</manifest>
