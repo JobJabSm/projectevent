@@ -57,27 +57,20 @@ public class fragment_home extends Fragment implements View.OnClickListener {
 
 
 
-        c_cse= (CardView)v.findViewById(R.id.cardView_cse);
-        c_mech= (CardView) v.findViewById(R.id.cardView_mech);
-        c_cvivl= (CardView) v.findViewById(R.id.cardView_civil);
 
-        c_ECT= (CardView) v.findViewById(R.id.cardView_ECT);
+
+
         c_General= (CardView) v.findViewById(R.id.cardView_GENERAL);
-        c_Fun= (CardView) v.findViewById(R.id.cardView_FUN);
-        c_chem= (CardView) v.findViewById(R.id.cardView_Chemical);
+
         c_FAQ= (CardView) v.findViewById(R.id.cardView_FAQ);
 
 
 
 
 
-        c_cse.setOnClickListener(this);
-        c_mech.setOnClickListener(this);
+
         c_FAQ.setOnClickListener(this);
-        c_cvivl.setOnClickListener(this);
-        c_ECT.setOnClickListener(this);
-        c_chem.setOnClickListener(this);
-        c_Fun.setOnClickListener(this);
+
         c_General.setOnClickListener(this);
 
 
@@ -118,36 +111,12 @@ public class fragment_home extends Fragment implements View.OnClickListener {
     {
         switch (v.getId()) {
 
-            case R.id.cardView_cse:
-
-               startActivity(new Intent(getActivity(),CSE_EVENTS_MAIN.class));
-                break;
-
-            case R.id.cardView_mech:
-
-               startActivity(new Intent(getActivity(),MECH_EVENTS_MAIN.class));
-                break;
-
-
-            case R.id.cardView_ECT:
-                startActivity(new Intent(getActivity(),ECT_EVENTS_MAIN.class));
-                break;
 
             case R.id.cardView_GENERAL:
                 startActivity(new Intent(getActivity(),General_Event_Main.class));
                 break;
 
-            case R.id.cardView_Chemical:
-                startActivity(new Intent(getActivity(),CHEMICAL_EVENTS_MAIN.class));
-                break;
 
-            case R.id.cardView_FUN:
-                startActivity(new Intent(getActivity(),Fun_Event_Main.class));
-                break;
-
-            case R.id.cardView_civil:
-                startActivity(new Intent(getActivity(),CIVIL_EVENTS_MAIN.class));
-                break;
 
             case R.id.cardView_FAQ:
                 startActivity(new Intent(getActivity(),FAQ_ACTIVITY.class));

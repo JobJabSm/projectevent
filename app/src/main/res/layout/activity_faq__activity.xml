@@ -23,16 +23,16 @@
         android:layout_marginTop="20dp"
         android:background="@color/white"
         android:textStyle="bold"
-        android:text="FAQ"
+        android:text="วิธีใช้งาน"
         android:gravity="center"
         android:textSize="30dp"
         android:textColor="@color/black"/>
 
-    <TextView
+            <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="● How to make Payment of the events..??"
+        android:text="ขั้นตอนการลงทะเบียนอบรม"
         android:textColor="@color/white"
         android:layout_marginLeft="10dp"
         android:textSize="20dp"
@@ -42,144 +42,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="Payment Desk will we available in various\ninstitutes in and around AURANGABAD before\n27 March 2019 , Where in Cash payment will\nbe accepted."
+        android:text="1.สมัครสมาชิค 2.เลือกหัวข้ออบรมที่ต้องการ 3.ดูรายละเอียดการอบรม 4.กดที่ Booking เผื่อลงเทียนอบรม"
         android:textColor="@color/white"
         android:layout_marginLeft="20dp"
         android:textSize="15dp"
          />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="● How to Book Event..??"
-        android:textColor="@color/white"
-        android:layout_marginLeft="10dp"
-        android:textSize="20dp"
-        android:textStyle="bold"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:text="New Users register , Click on the event which you would like to participate , there you will\nfind BOOK Button , Where on Onclick you will get booking confirmation via Email or SMS."
-        android:textColor="@color/white"
-        android:layout_marginLeft="20dp"
-        android:textSize="15dp"
-         />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="● Do we need to come with ID-Cards..??"
-        android:textColor="@color/white"
-        android:layout_marginLeft="10dp"
-        android:textSize="20dp"
-        android:textStyle="bold"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:text="Yes , you need to come with your College ID-CARD. On entering the Campus you will be given SWAYAMBHU event ID-CARD. This Card is only for students other than JNEC. "
-        android:textColor="@color/white"
-        android:layout_marginLeft="20dp"
-        android:textSize="15dp"
-         />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="● How to Confirm the event booking..??"
-        android:textColor="@color/white"
-        android:layout_marginLeft="10dp"
-        android:textSize="20dp"
-        android:textStyle="bold"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:text="Just Show the Email or SMS on the Payment Desk , and check your name in the particular \nevent list. Where on payment you will get a Receipt."
-        android:textColor="@color/white"
-        android:layout_marginLeft="20dp"
-        android:textSize="15dp"
-
-        android:layout_marginBottom="10dp"/>
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="40dp"
-                android:text="● Why I get a toast 'clicked' two times..??"
-
-                android:textColor="@color/white"
-                android:layout_marginLeft="10dp"
-                android:textSize="20dp"
-                android:textStyle="bold"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:text="Once you have Registered for an event , You cant book it twice on same email , and then You will get that 'clicked' two times and get a message \n' Already Registered for the event.'"
-                android:textColor="@color/white"
-                android:layout_marginLeft="20dp"
-                android:textSize="15dp"
-
-                android:layout_marginBottom="10dp"/>
-
-
-
-
-                      <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="40dp"
-                android:text="● App is Crashing for no reason??"
-
-                android:textColor="@color/white"
-                android:layout_marginLeft="10dp"
-                android:textSize="20dp"
-                android:textStyle="bold"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:text="Please check INTERNET connectivity , App sometimes crashes when there is connectivity problem. Or else Restart the Application."
-                android:textColor="@color/white"
-                android:layout_marginLeft="20dp"
-                android:textSize="15dp"
-
-                android:layout_marginBottom="20dp"/>
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="40dp"
-                android:text="● Why am I not getting SMS on my registered Contact"
-
-                android:textColor="@color/white"
-                android:layout_marginLeft="10dp"
-                android:textSize="20dp"
-                android:textStyle="bold"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:text="The SMS service is Active  between 9 AM to 9 PM."
-                android:textColor="@color/white"
-                android:layout_marginLeft="20dp"
-                android:textSize="15dp"
-
-                android:layout_marginBottom="20dp"/>
-
 
 
         </LinearLayout>

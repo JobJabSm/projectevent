@@ -66,7 +66,7 @@ public class MrMsTechy_open extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(getApplication(), "Registering", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplication(), "ลงทะเบียน", Toast.LENGTH_SHORT).show();
                 Datacheck();
                 //smsApiCall();
             }
@@ -91,7 +91,7 @@ public class MrMsTechy_open extends AppCompatActivity {
                     //Toast.makeText(getApplicationContext(), "in data", Toast.LENGTH_LONG).show();
                     String email = dataSnapshot.child("Email").getValue().toString();
                     if (count >= 1) {
-                        Toast.makeText(getApplicationContext(), "Already Registered with this " + email, Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "คุณได้ลงทะเบียนไว้แล้ว" + email, Toast.LENGTH_SHORT).show();
                     }
                     count++;
                     //mProLogin.dismiss()
@@ -129,13 +129,13 @@ public class MrMsTechy_open extends AppCompatActivity {
             public void onComplete(@NonNull Task<Void> task) {
 
                 if (task.isSuccessful()) {
-                    Toast.makeText(getApplicationContext(), "Registered ", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "ลงทะเบียนสำเร็จ ", Toast.LENGTH_SHORT).show();
 
                     smsApiCall();
 
                     String email = StudentInfo.getEmail();
-                    String subject = "Greetings from JNEC-SWAYAMBHU";
-                    String message = "Thank you " + StudentInfo.getname() + " for registering in Mr AND Ms TECHY. Kindly show this message/email on payment desk to confirm your booking. This email is valid until bookings are full.";
+                    String subject = "คุณได้ทำการลงบะเบียนการอบรม";
+                    String message = "ขอบคุณ " + StudentInfo.getname() + " สำหรับการลงทะเบียนการอบรม";
 
                     //Toast.makeText(getApplicationContext(),email+" ",Toast.LENGTH_LONG).show();
 
